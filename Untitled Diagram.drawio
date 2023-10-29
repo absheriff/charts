@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-29T21:37:43.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="gD8fY2OrQx7_7_6bT3L1" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-29T21:45:04.938Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="MfKUcdA3ok66emQj8e3M" version="22.0.8" type="github">
   <diagram name="Page-1" id="74b105a0-9070-1c63-61bc-23e55f88626e">
-    <mxGraphModel dx="1397" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1387" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -37,11 +37,28 @@
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ezQpKwWz8Qu0smY6V-m6-12" target="ezQpKwWz8Qu0smY6V-m6-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ezQpKwWz8Qu0smY6V-m6-12" target="ezQpKwWz8Qu0smY6V-m6-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1210" y="120" />
+              <mxPoint x="1210" y="310" />
+              <mxPoint x="170" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Data preprocessing&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="100" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-14" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Handle missing values&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="240" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ezQpKwWz8Qu0smY6V-m6-15" target="ezQpKwWz8Qu0smY6V-m6-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="400" />
+              <mxPoint x="170" y="400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-15" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Oversample (X, Y)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1003" y="240" width="160" height="40" as="geometry" />
@@ -59,19 +76,42 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-40" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Split data (X, Y)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="350" width="160" height="40" as="geometry" />
+          <mxGeometry x="90" y="340" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ezQpKwWz8Qu0smY6V-m6-41" target="ezQpKwWz8Qu0smY6V-m6-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-41" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Split oversampled data (train,test)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="420" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ezQpKwWz8Qu0smY6V-m6-42" target="ezQpKwWz8Qu0smY6V-m6-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-42" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Expand dims of train, test&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="420" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ezQpKwWz8Qu0smY6V-m6-43" target="ezQpKwWz8Qu0smY6V-m6-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-43" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Build &amp;amp;train CNN model&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="420" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ezQpKwWz8Qu0smY6V-m6-44" target="ezQpKwWz8Qu0smY6V-m6-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-44" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Make prediction and evaluation&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="420" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ezQpKwWz8Qu0smY6V-m6-46" target="ezQpKwWz8Qu0smY6V-m6-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1245" y="490" />
+              <mxPoint x="170" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ezQpKwWz8Qu0smY6V-m6-45" target="ezQpKwWz8Qu0smY6V-m6-46">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-45" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Feature extraction from CNN layers for RF model&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="420" width="200" height="40" as="geometry" />
@@ -79,14 +119,29 @@
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-46" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Instantiate &amp;amp; train RF&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1170" y="420" width="150" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ezQpKwWz8Qu0smY6V-m6-47" target="ezQpKwWz8Qu0smY6V-m6-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-47" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Make pred and evaluation&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ezQpKwWz8Qu0smY6V-m6-48" target="ezQpKwWz8Qu0smY6V-m6-49">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-48" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Infuse CNN prediction into RF as input&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="520" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ezQpKwWz8Qu0smY6V-m6-49" target="ezQpKwWz8Qu0smY6V-m6-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-49" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Evaluate hybrid CNN-RF model&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-50" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Save model for deployment&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.356;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ezQpKwWz8Qu0smY6V-m6-40" target="ezQpKwWz8Qu0smY6V-m6-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
