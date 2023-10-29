@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-29T21:45:04.938Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="MfKUcdA3ok66emQj8e3M" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-29T21:49:27.829Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="iGvfmdFNfM8-_3FkFA3Q" version="22.0.8" type="github" pages="2">
   <diagram name="Page-1" id="74b105a0-9070-1c63-61bc-23e55f88626e">
-    <mxGraphModel dx="1387" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1664" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -142,6 +142,38 @@
         </mxCell>
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.356;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ezQpKwWz8Qu0smY6V-m6-40" target="ezQpKwWz8Qu0smY6V-m6-15">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="duwe8utRjX5pr_nPRdWv" name="Page-2">
+    <mxGraphModel dx="1189" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RWdVaoSDPrCecyL-yo3--1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Python libraries&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RWdVaoSDPrCecyL-yo3--2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Read in datruel&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="190" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RWdVaoSDPrCecyL-yo3--3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Exploratory data analysis&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RWdVaoSDPrCecyL-yo3--4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Data preprocessing&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="390" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RWdVaoSDPrCecyL-yo3--5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Split data into (train, test, valid)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="500" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RWdVaoSDPrCecyL-yo3--6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Build function (baseline model metrics)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="600" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RWdVaoSDPrCecyL-yo3--9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Set initial bias &amp;amp; calculate class wight&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="750" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RWdVaoSDPrCecyL-yo3--10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Train model auth class weight&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="850" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
