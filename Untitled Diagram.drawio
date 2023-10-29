@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-29T21:33:38.772Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="uqZ2bqqbaGd3TaDP7MdY" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-29T21:37:43.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="gD8fY2OrQx7_7_6bT3L1" version="22.0.8" type="github">
   <diagram name="Page-1" id="74b105a0-9070-1c63-61bc-23e55f88626e">
-    <mxGraphModel dx="1151" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1397" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -60,6 +60,33 @@
         </mxCell>
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-40" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Split data (X, Y)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="350" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-41" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Split oversampled data (train,test)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="420" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-42" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Expand dims of train, test&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="420" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-43" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Build &amp;amp;train CNN model&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="420" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-44" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Make prediction and evaluation&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="420" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-45" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Feature extraction from CNN layers for RF model&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="420" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-46" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Instantiate &amp;amp; train RF&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="420" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-47" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Make pred and evaluation&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-48" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Infuse CNN prediction into RF as input&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-49" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Evaluate hybrid CNN-RF model&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="520" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
