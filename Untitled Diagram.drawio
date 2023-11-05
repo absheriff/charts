@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-05T21:44:59.315Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="dp4sD21cJe2JqlJH1qdD" version="22.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-11-05T21:47:33.084Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="ohgMr-07BiAJZCTik5T5" version="22.0.8" type="github" pages="5">
   <diagram id="duwe8utRjX5pr_nPRdWv" name="Page-2">
     <mxGraphModel dx="1119" dy="1765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -280,7 +280,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Page-1" id="74b105a0-9070-1c63-61bc-23e55f88626e">
-    <mxGraphModel dx="1729" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1189" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -387,7 +387,7 @@
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="ezQpKwWz8Qu0smY6V-m6-45" target="ezQpKwWz8Qu0smY6V-m6-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ezQpKwWz8Qu0smY6V-m6-45" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Feature extraction from CNN layers for RF model training&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="ezQpKwWz8Qu0smY6V-m6-45" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Extract training data from CNN layers for RF model training&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="880" y="433" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ezQpKwWz8Qu0smY6V-m6-46" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;br&gt;Instantiate and train RF model&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
