@@ -1,11 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-11-22T14:13:39.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="UAb7jN7yACOivo05ESIz" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-22T14:15:59.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="BalUO48OSha0cp14SuSS" version="22.1.3" type="github">
   <diagram name="Page-1" id="jxXhUcFynYkiDxgHYVDg">
-    <mxGraphModel dx="1040" dy="1803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="876" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="t_Rc0NmIWvPBDkavdPG0-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="130" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="t_Rc0NmIWvPBDkavdPG0-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="t_Rc0NmIWvPBDkavdPG0-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="283.9565217391305" y="140" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="t_Rc0NmIWvPBDkavdPG0-2" value="Air Blower" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;flipH=1;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="230" y="242.5" width="107.5" height="32.5" as="geometry" />
@@ -41,10 +46,10 @@
           <mxGeometry x="564" y="90" width="100" height="222.5" as="geometry" />
         </mxCell>
         <mxCell id="t_Rc0NmIWvPBDkavdPG0-19" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="475" y="60" width="59" height="50" as="geometry" />
+          <mxGeometry x="475" y="80" width="55" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t_Rc0NmIWvPBDkavdPG0-20" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="589" y="60" width="59" height="50" as="geometry" />
+          <mxGeometry x="589" y="80" width="51" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t_Rc0NmIWvPBDkavdPG0-21" value="Borehole" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="180" y="30" width="70" height="30" as="geometry" />
@@ -84,6 +89,15 @@
             <mxPoint x="220" y="188.51063829787222" as="sourcePoint" />
             <mxPoint x="510" y="40" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="t_Rc0NmIWvPBDkavdPG0-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="140" as="sourcePoint" />
+            <mxPoint x="490" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_Rc0NmIWvPBDkavdPG0-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="20" width="100" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
