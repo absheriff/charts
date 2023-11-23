@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T22:27:17.950Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="1vRnqM2XyspRqhc9SVcd" version="22.1.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-11-23T22:27:54.318Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="S0dG88LbmDUiG6hmeQMA" version="22.1.3" type="github" pages="7">
   <diagram name="Copy of Page-2" id="d8kjsw53eSGYqT87CRqI">
     <mxGraphModel dx="2080" dy="2437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -813,7 +813,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="S5nnPGTST9y44sBz_YOG" name="forward propagation">
-    <mxGraphModel dx="396" dy="247" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1780" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -904,15 +904,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ENFiAWMDByS2DIBvYHYg-30" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0.58;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.448;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ENFiAWMDByS2DIBvYHYg-27" target="ENFiAWMDByS2DIBvYHYg-13">
+        <mxCell id="ENFiAWMDByS2DIBvYHYg-30" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0.58;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.724;exitY=1.083;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ENFiAWMDByS2DIBvYHYg-27" target="ENFiAWMDByS2DIBvYHYg-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="790" y="690" as="sourcePoint" />
             <mxPoint x="990" y="691" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="800" y="680" />
-              <mxPoint x="800" y="720" />
-              <mxPoint x="990" y="720" />
-              <mxPoint x="990" y="670" />
+              <mxPoint x="833" y="730" />
+              <mxPoint x="979" y="730" />
             </Array>
           </mxGeometry>
         </mxCell>
