@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T22:35:57.207Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="mNM3YVhsOwftNPFV5vvS" version="22.1.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-11-23T22:38:25.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="cvCRgh-FOd2HtSxNNi5-" version="22.1.3" type="github" pages="8">
   <diagram name="Copy of Page-2" id="d8kjsw53eSGYqT87CRqI">
     <mxGraphModel dx="2080" dy="2437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -813,7 +813,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="S5nnPGTST9y44sBz_YOG" name="forward propagation">
-    <mxGraphModel dx="1780" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2080" dy="1268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -918,7 +918,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_6PLPhMQUVeeWEjqbyoK" name="regular neural">
-    <mxGraphModel dx="1513" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="1449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
